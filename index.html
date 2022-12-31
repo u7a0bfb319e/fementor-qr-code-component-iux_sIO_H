@@ -24,6 +24,12 @@
       height: 100%;
     }
 
+    h1,
+    h2 {
+      margin-block-start: auto;
+      margin-block-end: auto;
+    }
+
     body {
       margin: 0;
       background-color: hsl(212, 45%, 89%);
@@ -62,16 +68,17 @@
       color: hsl(218, 44%, 22%);
       font-weight: 700;
       padding-top: var(--padding);
+      padding-bottom: var(--padding);
       text-align: center;
-      font-size: 1.2em;
+      font-size: 1.6em;
     }
 
     .subtitle {
       color: hsl(220, 15%, 55%);
-      padding-top: var(--padding);
       padding-bottom: var(--padding);
       text-align: center;
-      font-size: .9em;
+      font-size: 1.2em;
+      font-weight: 400;
     }
 
     .flex-container {
@@ -116,10 +123,10 @@
       </div>
       <h1 class="flex-item title" role="contentinfo" aria-label="description">Improve your front-end skills by building
         projects</h1>
-      <h2 class="flex-item subtitle" role="contentinfo" aria-label="howto">Scan the QR code to visit Frontend Mentor
+      <div class="flex-item subtitle" role="contentinfo" aria-label="howto">Scan the QR code to visit Frontend Mentor
         and take your coding
         skills to the next
-        level</h2>
+        level</div>
     </div>
   </main>
 </body>
